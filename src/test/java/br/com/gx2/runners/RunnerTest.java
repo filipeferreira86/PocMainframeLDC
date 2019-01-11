@@ -1,4 +1,4 @@
-package runners;
+package br.com.gx2.runners;
 
 import org.junit.runner.RunWith;
 
