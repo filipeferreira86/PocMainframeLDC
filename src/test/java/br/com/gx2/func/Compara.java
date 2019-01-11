@@ -18,10 +18,8 @@ public class Compara {
             reader.close();
             String[] linhas = new String[records.size()];
             int i = 0;
-        	System.out.println("**********antes do retorno*************************************");
             for(String linha : records) {
             	linhas[i] = linha;
-                System.out.println("A linha " + i +" contem: " + linhas[i]);
                 i++;
             }
             return linhas;
