@@ -35,4 +35,3 @@ Funcionalidade: Permitir realizar login no sistema de gestão de usuários
 		E senha "admin" na linha "18" coluna "44"
 		E teclar "Enter"
 		Então deve exibir tela de dados conforme "prt\prtInicialCad.txt"
-		
