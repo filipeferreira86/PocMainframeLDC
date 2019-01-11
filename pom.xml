@@ -1,6 +1,67 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.gx2</groupId>
-  <artifactId>PocMainframeLdc</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jagacy</groupId>
+	<artifactId>testecc</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<developers>
+		<developer>
+			<name>Filipe Ferreira de Jesus</name>
+			<email>filipe.ferreira.de.jesus@gmail.com</email>
+			<organization>GX2</organization>
+			<organizationUrl>http://www.gx2.com.br/pt/</organizationUrl>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.7</java.version>
+		<junit.version>4.12</junit.version>
+		<cucumber.version>1.2.4</cucumber.version>
+		<maven.compiler.version>3.3</maven.compiler.version>
+		<commons.lang3.version>3.4</commons.lang3.version>
+		<jagacy.version>4.2.3</jagacy.version>
+		<caminho.jagacy>C:/Users/filipe.jesus/Documents/Testes/scripts/jars/Jagacy3270_evaluation/Jagacy3270/jagacy3270.jar</caminho.jagacy>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>info.cukes</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${cucumber.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons.lang3.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>jagacy3270</groupId>
+			<artifactId>jagacy3270</artifactId>
+			<version>${jagacy.version}</version>
+			<scope>system</scope>
+			<systemPath>${caminho.jagacy}</systemPath>
+		</dependency>
+
+	</dependencies>
+
 </project>
