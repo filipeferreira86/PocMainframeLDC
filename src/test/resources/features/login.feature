@@ -2,7 +2,8 @@
 
 Funcionalidade: Permitir realizar login no sistema de gest�o de usu�rios
 
-	Contexto: Dado que estou na tela de login mainframe
+	Contexto: 
+		Dado que estou na tela de login mainframe
 		E o texto "Usuario" é exibido na linha "17" coluna "25"
 		Quando eu informar "tollel" na linha "17" coluna "44"
 		E senha "tollel" na linha "18" coluna "44"
