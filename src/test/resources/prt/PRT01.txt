@@ -1,0 +1,24 @@
+                                   Sign On                                      
+                                               Sistema . . . . . :   BRCOIBB3   
+                                               Subsistema. . . . :   QINTER     
+                                               Terminal. . . . . :   QPADEV0504 
+                                                                                
+                                                                                
+                 ///                //////              ////////                
+                 ///                ///////            /////////                
+                 ///                ///   ///          ///                      
+                 ///                ///   ///          ///                      
+                 ///                ///   ///          ///                      
+                 /////////          ///////            /////////                
+                 /////////          //////              ////////                
+                                                                                
+ L O U I S   D R E Y F U S   C O M M O D I T I E S   A G R O I N D U S T R I A L
+                                                                                
+                                                                                
+                         Usuario . . . . :                                      
+                         Senha . . . . . :                                      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                        (C) COPYRIGHT IBM CORP. 1980, 2013.     
