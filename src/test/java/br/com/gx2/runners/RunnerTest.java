@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 				"junit:target/cucumber.xml",
 				"rerun:target/rerun.txt"},
 		features = "src/test/resources/features/login.feature",
-		glue = "steps"
+		glue = "br.com.gx2.steps"
 		)
 
 public class RunnerTest {
