@@ -8,7 +8,7 @@ import com.jagacy.util.JagacyException;
 import br.com.gx2.func.Compara;
 // Import das classes
 import br.com.gx2.sessions.Session;
-import br.com.gx2.telas.TelaInicial;
+import br.com.gx2.telas.TelaLoginMainframe;
 import cucumber.api.PendingException;
 //Import do Cucumber
 import cucumber.api.Scenario;
@@ -20,7 +20,7 @@ import cucumber.api.java.pt.Então;
 public class Steps {
 
 	Session session;
-	TelaInicial telaInicial;
+	TelaLoginMainframe telaInicial;
 	Scenario scenario;
 	Compara compara = new Compara();
 
@@ -37,7 +37,7 @@ public class Steps {
 
 	@Dado("^o texto \"([^\"]*)\" é exibido na linha (\\d+) coluna (\\d+)$")
 	public void oTextoÉExibidoNaLinhaColuna(String cont, int linha, int col) throws Throwable {
-        telaInicial = new TelaInicial(session, linha, col, cont);
+        telaInicial = new TelaLoginMainframe(session, linha, col, cont);
         scenario.embed(session.getScreenshot(), "image/png");
 	}
 

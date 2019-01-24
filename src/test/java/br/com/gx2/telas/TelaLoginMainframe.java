@@ -9,7 +9,7 @@ import br.com.gx2.sessions.Session;
 
 
 
-public class TelaInicial {
+public class TelaLoginMainframe {
 
 	private Session session;
 
@@ -18,7 +18,7 @@ public class TelaInicial {
 
 	private EntryField campoEntry;
 
-	public TelaInicial(Session s, int linha, int col, String cont) throws JagacyException {
+	public TelaLoginMainframe(Session s, int linha, int col, String cont) throws JagacyException {
 		this.session = s;
 		campo1 = new LabelField(linha, col, cont);
 		if (!session.waitForTextLabel(campo1)) {
