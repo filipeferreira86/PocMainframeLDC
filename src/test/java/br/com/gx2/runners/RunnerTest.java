@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 				"json:target/cucumber.json", 
 				"junit:target/cucumber.xml",
 				"rerun:target/rerun.txt"}, 
-		features = "src/test/resources/features/testeTela.feature", 
+		features = "src/test/resources/features/login.feature", 
 		glue = "br.com.gx2.steps"
 		)
 

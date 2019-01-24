@@ -14,26 +14,21 @@ public class TelaInicial {
 	private Session session;
 
 	// Campos na tela:
-	private LabelField campo1 = new LabelField(17, 25, "Usuario . . . . :");
+	private LabelField campo1;
 
-	private EntryField login;
+	private EntryField campoEntry;
 
-	private EntryField senha = new EntryField(18, 44);
-
-	public TelaInicial(Session s) throws JagacyException {
+	public TelaInicial(Session s, int linha, int col, String cont) throws JagacyException {
 		this.session = s;
+		campo1 = new LabelField(linha, col, cont);
 		if (!session.waitForTextLabel(campo1)) {
 			System.out.println("Não é a tela de Login!!!");
 		}
 	}
 
-	public void setLogin(String l, int linha, int col) throws JagacyException {
-		login = new EntryField(linha, col);
-		session.setEntryFieldValue(login, l);
-	}
-
-	public void setSenha(String s) throws JagacyException {
-		session.setEntryFieldValue(senha, s);
+	public void setcampoEntry(String l, int linha, int col) throws JagacyException {
+		campoEntry = new EntryField(linha, col);
+		session.setEntryFieldValue(campoEntry, l);
 	}
 	
 	public void sendKey(Key tecla) throws JagacyException {
