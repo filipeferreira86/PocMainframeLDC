@@ -56,8 +56,6 @@ Funcionalidade: Permitir manutenção de usuário no sistema de gestão de usuá
     Quando eu informar "1" na linha 8 coluna 22
     E teclar enter
     E o texto "Consulta" é exibido na linha 1 coluna 2
-    E teclar PA1
-    E o texto "Nnnn" é exibido na linha 3 coluna 3
     E teclar PF2
     E o texto "TIC4" é exibido na linha 0 coluna 1
     E eu informar "Teste" na linha 8 coluna 22

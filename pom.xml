@@ -23,7 +23,7 @@
 		<maven.compiler.version>3.3</maven.compiler.version>
 		<commons.lang3.version>3.4</commons.lang3.version>
 		<jagacy.version>4.2.3</jagacy.version>
-		<caminho.jagacy>C:/Users/filipe.jesus/Documents/Testes/scripts/jars/Jagacy3270_evaluation/Jagacy3270/jagacy3270.jar</caminho.jagacy>
+		<caminho.jagacy>${project.basedir}/src/test/resources/jar/jagacy3270.jar</caminho.jagacy>
 	</properties>
 
 	<dependencies>
