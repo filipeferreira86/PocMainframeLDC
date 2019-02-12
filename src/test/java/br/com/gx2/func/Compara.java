@@ -7,10 +7,15 @@ import java.util.List;
 
 public class Compara {
 	
-	public String[] readFile(String filename) {
+	String fileName;
+	
+	public String[] readFile(String file) {
+		
+		String filePath = System.getProperty("user.dir");
+		this.fileName = filePath+file;
         List<String> records = new ArrayList<String>();
         try {
-            BufferedReader reader = new BufferedReader(new FileReader(filename));
+            BufferedReader reader = new BufferedReader(new FileReader(fileName));
             String line;
             while ((line = reader.readLine()) != null) {
                 records.add(line);
@@ -25,7 +30,7 @@ public class Compara {
             return linhas;
             
         } catch (Exception e) {
-            System.err.format("Erro na leitura '%s'.", filename);
+            System.err.format("Erro na leitura '%s'.", fileName);
             e.printStackTrace();
             return null;
         }

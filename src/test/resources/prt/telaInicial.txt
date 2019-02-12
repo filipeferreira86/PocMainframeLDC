@@ -1,18 +1,18 @@
                                                                                 
                                                                                 
                                                                                 
-                     LDC - Sistema de controle de usuários                      
-                   _________________________________________                    
-                                                                                
-                                                                                
-                    Login                                                       
-                                                                                
-                    Senha                                                       
+                  LDC - Sistema de controle de usuários                         
+                _________________________________________                       
                                                                                 
                                                                                 
                                                                                 
+                      0 Cadastro de Usuários                                    
                                                                                 
+                      0 Relatório de Usuários                                   
                                                                                 
+                      0 Sair                                                    
+                                                                                
+            Digite 1 para a opção escolhida e pressione ENTER                   
                                                                                 
                                                                                 
                                                                                 

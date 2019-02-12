@@ -15,16 +15,18 @@ import cucumber.api.junit.Cucumber;
 				"json:target/cucumber.json", 
 				"junit:target/cucumber.xml",
 				"rerun:target/rerun.txt"}, 
-		features = "src/test/resources/features/login.feature", 
-		glue = "br.com.gx2.steps"
+		features = {"src/test/resources/features/login.feature",
+				"src/test/resources/features/manutencaoUsuario.feature"}, 
+		glue = "br.com.gx2.steps",
+		tags = "@exec"
 		)
 
 public class RunnerTest {
 
-	@BeforeClass
+    @BeforeClass
     public static void setUpSuite() {
         System.setProperty("jagacy.properties.dir",
                 "./src/test/resources");
-        System.setProperty("test.window", "true");
-	}
+        System.setProperty("Teste.window", "true");
+    }
 }

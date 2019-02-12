@@ -1,14 +1,11 @@
                                                                                 
+  Consulta de Usuários                                            CI4U01        
                                                                                 
+   Nome:                                                                        
                                                                                 
-                     LDC - Sistema de controle de usuários                      
-                   _________________________________________                    
-                                                                                
-                                                                                
-                    Login                                                       
-                                                                                
-                    Senha                                                       
-                                                                                
+  Op.  CODIGO NOME                          LOGIN                ATIVO          
+     0    1   ANDREY                        ANDREY               S              
+     0    2   rodrigo alonso                                                    
                                                                                 
                                                                                 
                                                                                 
@@ -19,6 +16,9 @@
                                                                                 
                                                                                 
                                                                                 
+  Op.  (1 - ATUALIZAR)                                                          
                                                                                 
- F3=Sair  F5=Atualizar  F10=Barra de açöes  F12=Cancela                         
+                                                                                
+                                                                                
+ F2=Inserir  F3=Sair  F5=Atualizar  F10=Barra de açöes  F12=Cancela             
                                                                                 

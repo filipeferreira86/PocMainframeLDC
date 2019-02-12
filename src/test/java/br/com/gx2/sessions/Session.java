@@ -116,4 +116,13 @@ public class Session extends Session3270 {
         ImageIO.write(bufferedImage, "PNG", out);
         return out.toByteArray();
     }
+
+	public String retPos(int linha, int col) {
+		return readPosition(linha, col);
+	}
+
+	private String readPosition(int linha, int col) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

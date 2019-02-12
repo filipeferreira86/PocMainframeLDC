@@ -1,15 +1,11 @@
+ TIC4 I02                                                                       
                                                                                 
-                                                                                
-                                                                                
-                     LDC - Sistema de controle de usuários                      
-                   _________________________________________                    
-                                                                                
-                                                                                
-                    Login                                                       
-                                                                                
-                    Senha                                                       
-                                                                                
-                                                                                
+ CODIGO        1                                                                
+ LOGIN      ANDREY                                                              
+ NOME       ANDREY                                                              
+ NASCIMENTO 21/06/71                                                            
+ SENHA      SENHA                                                               
+ ATIVO      S                                                                   
                                                                                 
                                                                                 
                                                                                 
@@ -20,5 +16,9 @@
                                                                                 
                                                                                 
                                                                                 
- F3=Sair  F5=Atualizar  F10=Barra de açöes  F12=Cancela                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F3=Sair  F5=Atualizar  F10=Barra de açöes  F12=Cancela              Modifica   
                                                                                 
