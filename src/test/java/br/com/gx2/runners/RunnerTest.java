@@ -18,7 +18,7 @@ import cucumber.api.junit.Cucumber;
 		features = {"src/test/resources/features/login.feature",
 				"src/test/resources/features/manutencaoUsuario.feature"}, 
 		glue = "br.com.gx2.steps",
-		tags = "@exec"
+		tags = "@man, @log"
 		)
 
 public class RunnerTest {
