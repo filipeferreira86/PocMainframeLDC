@@ -6,7 +6,6 @@ import org.junit.Assert;
 import com.jagacy.Key;
 import com.jagacy.util.JagacyException;
 
-import br.com.gx2.fields.EntryField;
 // Import das classes
 import br.com.gx2.func.Compara;
 import br.com.gx2.sessions.Session;
