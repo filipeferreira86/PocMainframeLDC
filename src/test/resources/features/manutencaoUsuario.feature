@@ -4,8 +4,8 @@ Funcionalidade: Permitir manutenção de usuário no sistema de gestão de usuá
   Contexto: 
     Dado que estou na tela de login mainframe
     E o texto "Usuário" é exibido na linha 16 coluna 14
-    E eu informar usuário "FREIPE_EXT" na linha 16 coluna 24
-    E senha "freipe" na linha 17 coluna 24
+    E eu informar usuário "SABERA" na linha 16 coluna 24
+    E senha "sabera" na linha 17 coluna 24
     E teclar enter
     E o texto "Sign-on Information" é exibido na linha 0 coluna 30
     E teclar enter
