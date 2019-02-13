@@ -16,7 +16,7 @@
                                                                                 
                                                                                 
                                                                                 
-  Op.  (1 - ATUALIZAR)                                                          
+  Op.  (1) - Atualizar      (2) - Excluir                                       
                                                                                 
                                                                                 
                                                                                 
