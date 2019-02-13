@@ -52,7 +52,7 @@ Funcionalidade: Permitir realizar login no sistema de gestão de usuários
     E o texto "Cadastro" é exibido na linha 20 coluna 2
     Então o texto "Cadastro não encontrado com este usuário e senha. Favor vali" deve ser exibido na linha 20 coluna 2
 
-  @log @exec
+  @log1 @exec
   Cenário: Logar com sucesso no sistema de gestão de usuários
     Dado seja apresentada na tela a informação de login do sistema de gestão "LDC - Sistema de controle de usuários" na linha 3 coluna 21
     Quando eu informar "ANDREY" na linha 7 coluna 27
