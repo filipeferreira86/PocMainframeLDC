@@ -13,17 +13,17 @@ Funcionalidade: Permitir realizar login no sistema de gestão de usuários
     E eu informar "10" na linha 20 coluna 30
     E teclar enter
     E o texto "Work with All Spooled Files" é exibido na linha 0 coluna 26
-		E eu informar "EDTLIBL" na linha 20 coluna 6
-		E teclar enter
-		E o texto "Edit Library List" é exibido na linha 0 coluna 31
-		E eu informar "GXPGMIC4" na linha 6 coluna 11
-		E teclar enter
-		E o texto "GXPGMIC4" é exibido na linha 7 coluna 11
-		E eu informar "GXDTAIC4" na linha 6 coluna 11
-		E teclar enter
-		E o texto "GXDTAIC4" é exibido na linha 7 coluna 11
-		E teclar enter
-		E o texto "Work with All Spooled Files" é exibido na linha 0 coluna 26
+	E eu informar "EDTLIBL" na linha 20 coluna 6
+	E teclar enter
+	E o texto "Edit Library List" é exibido na linha 0 coluna 31
+	E eu informar "GXPGMIC4" na linha 6 coluna 11
+	E teclar enter
+	E o texto "GXPGMIC4" é exibido na linha 7 coluna 11
+	E eu informar "GXDTAIC4" na linha 6 coluna 11
+	E teclar enter
+	E o texto "GXDTAIC4" é exibido na linha 7 coluna 11
+	E teclar enter
+	E o texto "Work with All Spooled Files" é exibido na linha 0 coluna 26
     E eu informar "CALL PGM(GXPGMIC4/CI4L01)" na linha 20 coluna 6
     E teclar enter
 

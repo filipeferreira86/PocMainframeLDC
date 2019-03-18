@@ -35,6 +35,8 @@ public class Steps {
 		session = new Session("Teste");
 		session.open();
 	}
+	
+	//Teste carga
 
 	@Dado("^o texto \"([^\"]*)\" é exibido na linha (\\d+) coluna (\\d+)$")
 	public void oTextoÉExibidoNaLinhaColuna(String cont, int linha, int col) throws Throwable {
