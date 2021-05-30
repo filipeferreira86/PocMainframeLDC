@@ -39,7 +39,6 @@ public class Steps {
 	@Dado("^o texto \"([^\"]*)\" é exibido na linha (\\d+) coluna (\\d+)$")
 	public void oTextoÉExibidoNaLinhaColuna(String cont, int linha, int col) throws Throwable {
 		tela = new TelaGenerica(session, linha, col, cont);
-		scenario.embed(session.getScreenshot(), "image/png");
 	}
 
 	@Dado("^eu informar usuário \"([^\"]*)\" na linha (\\d+) coluna (\\d+)$")
